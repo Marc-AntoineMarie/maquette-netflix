@@ -1,0 +1,248 @@
+
+body {
+    margin: 0 auto;
+    font-family: Arial;
+    
+}
+
+/* pub bandeau blanc haut de page */
+.pub{
+    /* ecriture */
+    font-family: Arial;
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+    /* proprieter */
+    height: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+em {
+
+    /* ecriture "NEWS!" */
+    width: 34px;
+    height: 16px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.8px;
+    line-height: 16px;
+    
+    text-transform: uppercase;  
+    color: whitesmoke;
+
+    /*position du carré rouge*/
+    padding: 3.19px, 8.13px, 2.19px, 8px;
+    top: 22.31px;
+    left: 749.97px;
+    border-radius: 17px;
+    width: 50.13px;
+    height: 21.38px;
+    background-color: #E50914;
+    text-align: center;
+    margin-right: 15px;
+
+}
+
+.promo {
+    /* position "Plans now start at" */
+    font-weight: 400;
+    font-size: 17.6px;
+    line-height: 21px;
+}
+
+b {
+    /* ecriture "6.99" */
+
+    font-weight: 900;
+    font-size: 20.8px;
+    line-height: 25.52px;
+    color: #333333;
+
+}
+
+#learn_more {
+
+    /* ecriture learn more */
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #0071EB; 
+    background: white; 
+
+    /* mise en forme */
+    border: none;
+    text-align: right;
+    margin-left: 30px;
+    margin-top: 5.5px ;
+}
+
+.background {
+    /* parametre du background */
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(background.png);
+    width: 100%;
+    margin: 0 auto;
+    height: 729px; 
+    text-align: center;
+    box-shadow: inset 0px 0px 120px 100px #000;
+    z-index: 0;
+   
+}
+.bouton_connexion {
+    /*positio  des bouton dans l'espace */
+    display: flex;
+    flex-direction: row;
+
+
+
+    width: 80px;
+    height: 35px;
+    right: 180px;
+    top: 65px;
+
+}
+.english {
+    /*ecriture du "english" */ 
+    line-height: 14px;
+    font-weight: 500;
+    size: 14px;
+    color: #AAAAAA;
+
+    /*position du carré noir "english"*/
+    
+    background-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #AAAAAA;   
+}
+
+.sign button {
+    /*ecriture du "Sign In" */
+    display: block;
+    line-height: 14px;
+    font-weight: 500;
+    size: 14px;
+    line-height: 18.2px;
+    color: #AAAAAA;
+
+    /*position du carré rouge "Sign In"*/
+
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff0000;  
+}
+
+.netflixlogo {
+
+    /* position du logo */
+    position: absolute;
+    width: 167px;
+    height: 45px;
+    left: 50px;
+    top: 65px;
+    
+}
+
+
+/* ecran principal */
+.main {
+
+    /* police d'écriture etc */
+    font-family: Arial;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.movies {
+    /* position et parametre du texte */
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    top: 150px;
+    
+}
+
+.watch {
+    /* position et parametre du texte */
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    position: relative;
+    top: 150px;
+    
+}
+
+.ready {
+    /* position et parametre du texte */
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top: 175px;
+    
+}
+
+.email {
+
+    /* position de l'input bar mail */
+    display: flex;
+    flex-direction: row;
+    
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    height: 60px;
+    left: 40%;
+    width: 20%;
+
+
+}
+
+.mail {
+    /* position de la barre mail et dans l'espace */
+    background: #FFFFFF;    
+    border: 1px solid #8C8C8C;
+    border-radius: 2px 2px 2px 2px;
+
+}
+
+.get button{
+
+    /*ecriture du "english" */
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    size: 14px;
+    line-height: 18.2px;
+    color: white;
+          
+    /*position du carré noir "english"*/
+       
+    width: 100%;
+    height: 60px;
+    background-color: red;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:red;   
+}
